@@ -1,0 +1,160 @@
+{
+  "documents": 8,
+  "queries": 8,
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "embedding_dimension": 384,
+  "metrics": {
+    "keyword": {
+      "recall_at_1": 0.5,
+      "recall_at_3": 0.5,
+      "mrr": 0.5
+    },
+    "semantic": {
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "mrr": 1.0
+    },
+    "hybrid": {
+      "recall_at_1": 1.0,
+      "recall_at_3": 1.0,
+      "mrr": 1.0
+    }
+  },
+  "queries_details": [
+    {
+      "query": "How can we keep sensitive information confidential?",
+      "relevant_filename": "security.md",
+      "keyword": {
+        "rank": 1,
+        "top_filename": "security.md"
+      },
+      "semantic": {
+        "rank": 1,
+        "top_filename": "security.md"
+      },
+      "hybrid": {
+        "rank": 1,
+        "top_filename": "security.md"
+      }
+    },
+    {
+      "query": "What helps a car motor avoid breaking down?",
+      "relevant_filename": "automobile.md",
+      "keyword": {
+        "rank": null,
+        "top_filename": "cardiac.txt"
+      },
+      "semantic": {
+        "rank": 1,
+        "top_filename": "automobile.md"
+      },
+      "hybrid": {
+        "rank": 1,
+        "top_filename": "automobile.md"
+      }
+    },
+    {
+      "query": "How do I settle an outstanding bill?",
+      "relevant_filename": "billing.txt",
+      "keyword": {
+        "rank": 1,
+        "top_filename": "billing.txt"
+      },
+      "semantic": {
+        "rank": 1,
+        "top_filename": "billing.txt"
+      },
+      "hybrid": {
+        "rank": 1,
+        "top_filename": "billing.txt"
+      }
+    },
+    {
+      "query": "What makes a loaf expand before it goes in the oven?",
+      "relevant_filename": "bread.md",
+      "keyword": {
+        "rank": 1,
+        "top_filename": "bread.md"
+      },
+      "semantic": {
+        "rank": 1,
+        "top_filename": "bread.md"
+      },
+      "hybrid": {
+        "rank": 1,
+        "top_filename": "bread.md"
+      }
+    },
+    {
+      "query": "How do I get ready to apply for a summer job?",
+      "relevant_filename": "career.md",
+      "keyword": {
+        "rank": null,
+        "top_filename": "billing.txt"
+      },
+      "semantic": {
+        "rank": 1,
+        "top_filename": "career.md"
+      },
+      "hybrid": {
+        "rank": 1,
+        "top_filename": "career.md"
+      }
+    },
+    {
+      "query": "What habits improve the health of the heart?",
+      "relevant_filename": "cardiac.txt",
+      "keyword": {
+        "rank": 1,
+        "top_filename": "cardiac.txt"
+      },
+      "semantic": {
+        "rank": 1,
+        "top_filename": "cardiac.txt"
+      },
+      "hybrid": {
+        "rank": 1,
+        "top_filename": "cardiac.txt"
+      }
+    },
+    {
+      "query": "How can I raise healthy vegetables in my backyard?",
+      "relevant_filename": "garden.txt",
+      "keyword": {
+        "rank": null,
+        "top_filename": null
+      },
+      "semantic": {
+        "rank": 1,
+        "top_filename": "garden.txt"
+      },
+      "hybrid": {
+        "rank": 1,
+        "top_filename": "garden.txt"
+      }
+    },
+    {
+      "query": "How do scientists investigate objects in outer space?",
+      "relevant_filename": "astronomy.txt",
+      "keyword": {
+        "rank": null,
+        "top_filename": null
+      },
+      "semantic": {
+        "rank": 1,
+        "top_filename": "astronomy.txt"
+      },
+      "hybrid": {
+        "rank": 1,
+        "top_filename": "astronomy.txt"
+      }
+    }
+  ],
+  "elapsed_seconds_excluding_model_load": 0.590928457910195,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "limitations": "Small author-written synthetic corpus and queries, one relevant document per query; not a general benchmark. No training or tuning against a hidden test set."
+}

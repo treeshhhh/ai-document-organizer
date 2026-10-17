@@ -1,0 +1,2 @@
+-r requirements-lite.txt
+sentence-transformers==6.1.0

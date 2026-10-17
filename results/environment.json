@@ -1,0 +1,12 @@
+{
+  "numpy": "2.3.5",
+  "pypdf": "6.10.0",
+  "fastapi": "0.143.3",
+  "uvicorn": "0.54.0",
+  "python-multipart": "0.0.32",
+  "httpx": "0.28.1",
+  "sentence-transformers": "6.1.0",
+  "torch": "2.14.1",
+  "transformers": "5.20.1",
+  "starlette": "1.8.0"
+}

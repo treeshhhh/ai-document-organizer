@@ -1,0 +1,2 @@
+Quarterly invoice procedure
+An invoice lists the amount owed for completed services. The finance team records each payment, checks the receipt, and reconciles expenses against the budget. Overdue bills trigger a reminder to the client.

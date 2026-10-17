@@ -1,0 +1,28 @@
+/Users/k2/Documents/Codex/2026-10-16/check-whether-you-can-access-my/work/project2-env/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_end_to_end_upload_preview_edit_export_trash (test_api.APITests.test_end_to_end_upload_preview_edit_export_trash) ... ok
+test_static_and_reindex (test_api.APITests.test_static_and_reindex) ... ok
+test_validation_and_paths (test_api.APITests.test_validation_and_paths) ... ok
+test_docx (test_core.ExtractionTests.test_docx) ... ok
+test_docx_entity_and_zip_paths (test_core.ExtractionTests.test_docx_entity_and_zip_paths) ... ok
+test_empty_malformed_oversize_and_names (test_core.ExtractionTests.test_empty_malformed_oversize_and_names) ... ok
+test_isolated_parser (test_core.ExtractionTests.test_isolated_parser) ... ok
+test_pdf (test_core.ExtractionTests.test_pdf) ... ok
+test_text_and_markdown (test_core.ExtractionTests.test_text_and_markdown) ... ok
+test_chunk_boundaries (test_core.IndexTests.test_chunk_boundaries) ... ok
+test_filename_and_injection (test_core.IndexTests.test_filename_and_injection) ... ok
+test_index_cache_duplicate_persistence (test_core.IndexTests.test_index_cache_duplicate_persistence) ... ok
+test_keyword_fallback (test_core.IndexTests.test_keyword_fallback) ... ok
+test_metadata_explainability (test_core.IndexTests.test_metadata_explainability) ... ok
+test_rebuild_missing_vectors (test_core.IndexTests.test_rebuild_missing_vectors) ... ok
+test_search_edit_trash_restore (test_core.IndexTests.test_search_edit_trash_restore) ... ok
+test_real_embedding_dimension_normalization_and_synonyms (test_semantic.SemanticTests.test_real_embedding_dimension_normalization_and_synonyms) ... W1017 13:41:11.686000 11180 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9181.42it/s]
+ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 6.639s
+
+OK
