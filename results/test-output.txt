@@ -17,9 +17,7 @@ test_metadata_explainability (test_core.IndexTests.test_metadata_explainability)
 test_rebuild_missing_vectors (test_core.IndexTests.test_rebuild_missing_vectors) ... ok
 test_search_edit_trash_restore (test_core.IndexTests.test_search_edit_trash_restore) ... ok
 test_real_embedding_dimension_normalization_and_synonyms (test_semantic.SemanticTests.test_real_embedding_dimension_normalization_and_synonyms) ... W1017 13:41:11.686000 11180 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
-
-Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
-Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9181.42it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9181.42it/s]
 ok
 
 ----------------------------------------------------------------------

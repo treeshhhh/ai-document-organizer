@@ -1,7 +1,5 @@
 W1017 13:36:41.791000 11020 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
-
-Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
-Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9031.89it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9031.89it/s]
 /Users/k2/Documents/Codex/2026-10-16/check-whether-you-can-access-my/outputs/ai-document-organizer/organizer/embedding.py:28: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
   self.dimension = self.model.get_sentence_embedding_dimension()
 {
